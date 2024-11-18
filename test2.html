@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>タイトル</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- タイトル -->
+        <h1 class="title1">野鳥ギャラリー デモサイト</h1>
+
+        <!-- カテゴリー絞り込みのボタン -->
+        <div class="search-list">
+            <button class="search-list__item js-category-label is-active" data-category="">すべて</button>
+            <button class="search-list__item js-category-label" data-category="western_scrub_jay">スクラブカケス</button>
+            <button class="search-list__item js-category-label" data-category="pigeon_1">ハト</button>
+            <button class="search-list__item js-category-label" data-category="kingfisher">カワセミ</button>
+        </div>
+        <!-- カテゴリー絞り込みのボタンここまで -->
+
+        <!-- ↓ masonry機能実装-->
+            
+        <!-- 記事リスト -->
+        <div class="grid" id="contents">
+                <div class="grid-item test" data-category="western_scrub_jay">
+                        <span>スクラブカケス</span>
+                        <img src="img/img1.jpg">
+                        <a href="img/img1.jpg" download="img1" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="western_scrub_jay">
+                        <span>スクラブカケス</span>
+                        <img src="img/img2.jpg">
+                        <a href="img/img2.jpg" download="img2" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="western_scrub_jay">
+                        <span>スクラブカケス</span>
+                        <img src="img/img3.jpg">
+                        <a href="img/img3.jpg" download="img3" class="download-btn">壁紙ダウンロード</a>
+                </div>
+
+                <div class="grid-item test" data-category="pigeon_1">
+                        <span>ハト</span>
+                        <img src="img/img4.jpg">
+                        <a href="img/img4.jpg" download="img4" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="pigeon_1">
+                        <span>ハト</span>
+                        <img src="img/img5.jpg">
+                        <a href="img/img5.jpg" download="img5" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="pigeon_1">
+                        <span>ハト</span>
+                        <img src="img/img6.jpg">
+                        <a href="img/img6.jpg" download="img6" class="download-btn">壁紙ダウンロード</a>
+                </div>
+
+                <div class="grid-item test" data-category="kingfisher">
+                        <span>カワセミ</span>
+                        <img src="img/img7.jpg">
+                        <a href="img/img7.jpg" download="img7" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="kingfisher">
+                        <span>カワセミ</span>
+                        <img src="img/img8.jpg">
+                        <a href="img/img8.jpg" download="img8" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="kingfisher">
+                        <span>カワセミ</span>
+                        <img src="img/img9.jpg">
+                        <a href="img/img9.jpg" download="img9" class="download-btn">壁紙ダウンロード</a>
+                </div>
+
+                <div class="grid-item test" data-category="western_scrub_jay">
+                        <span>スクラブカケス</span>
+                        <img src="img/img1.jpg">
+                        <a href="img/img1.jpg" download="img1" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="western_scrub_jay">
+                        <span>スクラブカケス</span>
+                        <img src="img/img2.jpg">
+                        <a href="img/img2.jpg" download="img2" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="western_scrub_jay">
+                        <span>スクラブカケス</span>
+                        <img src="img/img3.jpg">
+                        <a href="img/img3.jpg" download="img3" class="download-btn">壁紙ダウンロード</a>
+                </div>
+
+                <div class="grid-item test" data-category="pigeon_1">
+                        <span>ハト</span>
+                        <img src="img/img4.jpg">
+                        <a href="img/img4.jpg" download="img4" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="pigeon_1">
+                        <span>ハト</span>
+                        <img src="img/img5.jpg">
+                        <a href="img/img5.jpg" download="img5" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="pigeon_1">
+                        <span>ハト</span>
+                        <img src="img/img6.jpg">
+                        <a href="img/img6.jpg" download="img6" class="download-btn">壁紙ダウンロード</a>
+                </div>
+
+                <div class="grid-item test" data-category="kingfisher">
+                        <span>カワセミ</span>
+                        <img src="img/img7.jpg">
+                        <a href="img/img7.jpg" download="img7" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="kingfisher">
+                        <span>カワセミ</span>
+                        <img src="img/img8.jpg">
+                        <a href="img/img8.jpg" download="img8" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="kingfisher">
+                        <span>カワセミ</span>
+                        <img src="img/img9.jpg">
+                        <a href="img/img9.jpg" download="img9" class="download-btn">壁紙ダウンロード</a>
+                </div>
+
+                <div class="grid-item test" data-category="western_scrub_jay">
+                        <span>スクラブカケス</span>
+                        <img src="img/img1.jpg">
+                        <a href="img/img1.jpg" download="img1" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="western_scrub_jay">
+                        <span>スクラブカケス</span>
+                        <img src="img/img2.jpg">
+                        <a href="img/img2.jpg" download="img2" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="western_scrub_jay">
+                        <span>スクラブカケス</span>
+                        <img src="img/img3.jpg">
+                        <a href="img/img3.jpg" download="img3" class="download-btn">壁紙ダウンロード</a>
+                </div>
+
+                <div class="grid-item test" data-category="pigeon_1">
+                        <span>ハト</span>
+                        <img src="img/img4.jpg">
+                        <a href="img/img4.jpg" download="img4" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="pigeon_1">
+                        <span>ハト</span>
+                        <img src="img/img5.jpg">
+                        <a href="img/img5.jpg" download="img5" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="pigeon_1">
+                        <span>ハト</span>
+                        <img src="img/img6.jpg">
+                        <a href="img/img6.jpg" download="img6" class="download-btn">壁紙ダウンロード</a>
+                </div>
+
+                <div class="grid-item test" data-category="kingfisher">
+                        <span>カワセミ</span>
+                        <img src="img/img7.jpg">
+                        <a href="img/img7.jpg" download="img7" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="kingfisher">
+                        <span>カワセミ</span>
+                        <img src="img/img8.jpg">
+                        <a href="img/img8.jpg" download="img8" class="download-btn">壁紙ダウンロード</a>
+                </div>
+    
+                <div class="grid-item test" data-category="kingfisher">
+                        <span>カワセミ</span>
+                        <img src="img/img9.jpg">
+                        <a href="img/img9.jpg" download="img9" class="download-btn">壁紙ダウンロード</a>
+                </div>
+        </div>
+        <!-- 記事リストここまで -->
+
+        <!-- jQueryのCDNを読み込む場合（圧縮版はminifiled） -->
+        <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous"></script>
+
+        <!-- 圧縮されたCDN -->
+        <script src="masonry.pkgd.min.js"></script>
+
+        <script src="imagesloaded.pkgd.js"></script>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
